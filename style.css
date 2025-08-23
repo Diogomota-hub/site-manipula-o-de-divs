@@ -90,6 +90,27 @@ header #sign {
     transition: 0.5;
 }
 /*começa a edição do main*/
-#main{
-    background-color: rgb(209, 201, 201);
+#main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    box-shadow: 2px 4px 76px 0px rgba(0, 0, 0, 0.15);
+    margin: 10vh 8vh;
+    padding: 2vh 6vh;
+    width: 20vh;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.block img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.block h3{
+    margin: 10px 0 15px;
+    font-size: larger;
 }
