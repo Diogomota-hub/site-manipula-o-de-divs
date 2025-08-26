@@ -151,3 +151,82 @@ header #sign {
 #testo-footer li {
     margin: 15px;
 }
+
+/*para mobille*/
+
+@media (max-width: 926px) {
+    header {
+        background-image: none;
+    }
+
+    a {
+        display: none;
+    }
+
+    #textoPrincipal {
+        width: 0;
+        margin: 0;
+    }
+
+    #textoPrincipal h2 {
+        font-size: 40px;
+    }
+
+    #textoPrincipal p {
+        width: 50vh;
+        text-align: justify;
+    }
+
+    #textoPrincipal #botaoBranco {
+        display: none;
+    }
+
+    #textoPrincipal #botao{
+        margin-left: 16vh;
+    }
+
+    /*main*/
+    #main {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: 35vh 35vh;
+    }
+
+
+    .block {
+        margin: 8px 5px;
+        padding: 8vh;
+        width: 10vh;
+        height: 15vh;
+        text-align: justify;
+    }
+
+    .block img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .block p {
+        display: none;
+    }
+
+    /*footer*/
+
+    #footer{
+        flex-direction: column;
+    }
+
+    #testo-footer p{
+        margin: 5vh;
+    }
+
+
+    #footer img{
+        width: 30vh;
+        height: 30vh;
+    }
+       
+     #testo-footer li{
+        margin: 6vh 8vh;
+     }
+}
